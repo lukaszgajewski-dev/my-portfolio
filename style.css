@@ -1,17 +1,23 @@
 body {
-  background-color: powderblue;
+  background-color: Cyan;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 h1 {
-  color: DarkBlue;
+  color: brown;
+  font-size: 40px;
+  font-weight: bold
 }
 
 h2 {
   color: purple;
+  font-size:30px;
+  font-weight: bold
 }
 
 p {
-  color: orange;
+  color: Crimson;
+  font-size:30px;
+  font-weight: italic;
 }
