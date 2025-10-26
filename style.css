@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: purple;
+}
+
+p {
+  color: orange;
+}
