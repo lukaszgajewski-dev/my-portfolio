@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Co robi PONIŻSZY kod <meta charset="UTF-8">???: kontroluje, jak strona jest wyświetlana na urządzeniach mobilnych.
+Szczegóły:
+width=device-width → szerokość strony dopasowuje się do szerokości ekranu urządzenia (telefon, tablet, komputer).
+initial-scale=1.0 → ustawia początkowy powiększenie strony na 100%, czyli bez powiększenia ani pomniejszenia.
+Dlaczego ważne:
+Bez tego tagu na telefonach strona może być bardzo „ściśnięta”, tekst maleńki, a użytkownik musi powiększać ekran, żeby coś przeczytać. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My first page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:powderblue;">
-<h1>This is my first (simple) page</h1>
-<p style="color:red; font-size:40px; font-family:Arial; font-weight:Bold;">This page is only for practice</p>
-<p style="color:brown; font-size:30px; font-family:serif; font-weight:italic;">There will be more content in here.</p><hr>
+  <header>
+    <h1>This is my first (simple) page</h1>
+    <p class="intro">This page is only for practice and learning HTML & CSS.</p>
+  </header>
+  <p>There will be more content in here.</p><hr>
   <p>I'm learning from this site <a href="https://www.w3schools.com/html/default.asp">W3Schools</a> mainly.</p>
 
 </body>
 
 </html>
+
 
 
