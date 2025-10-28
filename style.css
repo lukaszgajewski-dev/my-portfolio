@@ -2,28 +2,39 @@ body {
 background-color:LightGray;
 }
 
+h1 {
+  background-color:rgba(100, 200, 100, 0.3); 
+  color:red; 
+  font-size:60px; 
+  font-family:Arial; 
+  font-weight:bold; 
+  text-align:center; 
+  border:5px solid blue; 
+  margin:5px auto; 
+  padding:5px; 
+  width:50%;
 p {
-background-color:rgba(170, 80, 240, 0.3); 
-color:SlateBlue; 
-font-size:40px; 
-font-family:Arial; 
-font-weight:bold; 
-text-align:center; 
-border:10px solid red; 
-margin:10px auto; 
-padding:10px; 
-width:50%;
+  background-color:rgba(170, 80, 240, 0.3); 
+  color:SlateBlue; 
+  font-size:40px; 
+  font-family:Arial; 
+  font-weight:bold; 
+  text-align:center; 
+  border:10px solid red; 
+  margin:10px auto; 
+  padding:10px; 
+  width:50%;
 }
 
 #para1 {
-background-color:hex(#3bb795); 
-color:hsl(0, 60%, 35%); 
-font-size:30px; 
-font-family:Serif; 
-font-weight:normal; 
-text-align:center; 
-border:20px dotted blue; 
-margin:5px auto; 
-padding:10px; 
-width:50%;
+  background-color:hex(#3bb795); 
+  color:hsl(0, 60%, 35%); 
+  font-size:30px; 
+  font-family:Serif; 
+  font-weight:normal; 
+  text-align:center; 
+  border:20px dotted blue; 
+  margin:5px auto; 
+  padding:10px; 
+  width:50%;
 }
